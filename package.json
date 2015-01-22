@@ -1,0 +1,32 @@
+{
+  "name": "arb",
+  "version": "0.0.4",
+  "description": "arbitrary precision number types and operations on them",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/integer.js | ./node_modules/.bin/tap-bail | ./node_modules/.bin/tspec"
+  },
+  "repository": "git@github.com:ashnur/arb.git",
+  "keywords": [
+    "bignumbers",
+    "bigintegers",
+    "bignum",
+    "bigint",
+    "arbitrary",
+    "precision",
+    "precise",
+    "arithmethic",
+    "complex",
+    "numbers",
+    "polynumbers"
+  ],
+  "author": "ashnur",
+  "license": "BSD-2-Clause",
+  "devDependencies": {},
+  "dependencies": {
+    "global": "^4.3.0"
+  }
+}
